@@ -17,7 +17,6 @@ title: 关于我
 
 ## 联系我
 
-- Email&nbsp;: [frocermained@foxmail.com](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=LkhcQU1LXENPR0BLSm5IQVZDT0dCAE1BQw)
-[frocermained@gmail.com](mailto:frocermained@gmail.com)
+- Email: [frocermained@foxmail.com](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=LkhcQU1LXENPR0BLSm5IQVZDT0dCAE1BQw) <br> &emsp;&emsp;&nbsp;&nbsp;&nbsp;[frocermained@gmail.com](mailto:frocermained@gmail.com)
 
 - GitHub: [https://github.com/Cecilia-pj](https://github.com/Cecilia-pj)
