@@ -23,6 +23,13 @@ baseurl: ''
 # 吐个槽地址，会在chat页面中重定向到该地址
 tucaoUrl: https://support.qq.com/product/425873
 
+# Gitalk
+gitalk:
+  clientID: 274c60fe21676c3b6011
+  clientSecret: 0d2dac989c0e1aeb3594f2a85c9efe0052a85330
+  repo: cecilia-pj.github.io
+  owner: cecilia-pj
+
 # 菜单
 # 必填字段 title: '文本' url: '链接'
 # 可选字段 target: '_blank' 新页面打开 
