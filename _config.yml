@@ -1,11 +1,11 @@
 encoding: utf-8
 
 # SEO相关信息
-title: cecilia-pj Blog
-description: cecilia-pj的个人博客
-keywords: cecilia-pj,Blog,Java,Html,JavaScript
-author: cecilia-pj
-footerText: 'Copyright © 2022 cecilia-pj'
+title: Cecilia-pj Blog
+description: Cecilia-pj的个人博客
+keywords: Cecilia-pj,Blog,Java,Html,JavaScript
+author: Cecilia-pj
+footerText: 'Copyright © 2022 Cecilia-pj'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
@@ -48,9 +48,9 @@ extClickEffect: true
 extAdsense: false
 
 # 数学公式支持，比较影响加载速度,不需要请设置为false
-extMath: false
+extMath: true
 
 # 友情链接
 links:
   - title: frocermained的个人主页
-    url: https://cecilia-pj.github.io/frocermained.github.io
+    url: https://Cecilia-pj.github.io/frocermained.github.io
