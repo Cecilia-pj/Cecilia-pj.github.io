@@ -38,8 +38,8 @@ html.dark .page-post img {
   box-shadow: none;
 }
 html.dark .page-post code {
-  background-color: rgba(39, 35, 36, 0.15);
-  color: #fa687f;
+  background-color: #272324;
+  color: #c678dd;
 }
 html.dark .page-post a {
   color: #58a6ff;
