@@ -9,7 +9,7 @@
 
 ## 感谢
 
-（[jekyll 主题作者](https://github.com/TMaize/tmaize-blog)）
+[jekyll 主题作者](https://github.com/TMaize/tmaize-blog)
 
 [夜间模式代码高亮配色](https://github.com/mgyongyosi/OneDarkJekyll)
 
