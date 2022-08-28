@@ -19,12 +19,14 @@ categories: [Tasker]
 
 如图。我们已经将网页数据都保存到1.html了。
 ![pic1](1661657842187.jpg)
+
 3. 读取文件。点击 + 添加操作 → 文件 →  读取文件  
 >文件：刚才保存的.html文件  
 >变量：新建一个名称简单的局部变量
 
 如图。将1.html所有的数据读取并存入到%html。
 ![pic2](Screenshot_2022-08-28-12-16-25-758_net.dinglisch.android.taskerm.jpg)
+
 4. 截取数据。
 [官网文档](https://tasker.joaoapps.com/userguide/en/variables.html)有关于html数据的读取方式。但是是英文的。翻译一下它。
 ![pic3](2022-08-28122814.png)<br>
