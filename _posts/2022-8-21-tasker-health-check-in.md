@@ -84,16 +84,17 @@ termux-sudo           #获取root权限
 ````
 pkg install python
 ````
-使用Termux还要学习两个命令 <code>ls</code> 和 <code>cd</code>。<br>
-&emsp;<code>ls</code>命令的作用是列出当前目录中所有的文件和文件夹。<br>
-&emsp;<code>cd</code>命令的作用是切换到某个文件夹。
-
-&emsp;将已经修改的源码复制到手机上，使用Termux运行一次。如果运行结果与电脑上一致，说明Python环境已经配置完成。  
 4. 可能要安装的库。如：Requests库 (Python)
 ````
 pip install requests
 如果python运行时出现缺少模块的错误时，用pip安装缺少的库。
 ````
+使用Termux还要学习两个命令 <code>ls</code> 和 <code>cd</code>。<br>
+&emsp;<code>ls</code>命令的作用是列出当前目录中所有的文件和文件夹。<br>
+&emsp;<code>cd</code>命令的作用是切换到某个文件夹。
+
+&emsp;将已经修改的源码复制到手机上，使用Termux运行一次。如果运行结果与电脑上一致，说明Python环境已经配置完成。  
+
 ## 5.自动化第二步——在手机上配置Tasker
 &emsp;好了，现在万事俱备，就差把 Termux 和 Tasker 相联系起来了。<br>
 &emsp;关于这方面，我们可以手动创建一个全局变量，就像Windows的环境变量一样。不过和Windows的环境变量的表达上有所差异。
