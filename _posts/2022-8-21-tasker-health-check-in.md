@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Tasker每日自动健康打卡
-categories: [Tasker]
+categories: [Tasker, 打卡]
 ---
 ## 需求
 1. **就是懒**！！！
