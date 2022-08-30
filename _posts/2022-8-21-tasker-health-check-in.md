@@ -3,11 +3,11 @@ layout: mypost
 title: Tasker每日自动健康打卡
 categories: [Tasker, 打卡]
 ---
-## 需求
+# 需求
 1. **就是懒**！！！
 2. 每天打卡有时限
 
-## 准备
+# 准备
 对个人要求：
 - 有一定的理解能力，不怕折腾
 - <ins>***学会使用搜索引擎，不要成为伸手党，不要一目十行***</ins>
@@ -19,12 +19,12 @@ categories: [Tasker, 打卡]
 - 抓包软件(电脑: fiddle,手机: HttpCanary)
 - 能够上Github的网络
 
-## 为什么用Tasker
+# 为什么用Tasker
 &emsp; 说到安卓自动化，就不能不提到Tasker。自Android在2007问世已来，仅仅过了2年时间这款软件便横空出世。逐渐成长为Google Play上最知名的安卓自动化工具软件，成为许多人无法离开Android的一个因素。但除了Tasker，安卓自动化工具还有auto.js、MacroDroid、FooView等。对比下来，Tasker虽然复杂一点，但可玩性最高，便于分享，软件生态优秀。而且对于Root用户来说，Tasker执行任务更加稳定。
 
-## 为什么不用腾讯云函数
+# 为什么不用腾讯云函数
 &emsp; 还不是因为穷。现在腾讯又改了收费方案，新用户前3个月才有免费额度，3个月后每月自动扣除12.8元，不管额度用多少，吃相难看。
-## 1.下载源码
+# 1.下载源码
 [Github](https://www.github.com)上搜索自己学校用的打卡软件名字，如图
 ![pic1](2022-08-21123415.png)
 我搜索的是奕辅导。
@@ -44,14 +44,14 @@ categories: [Tasker, 打卡]
 &emsp; 第一个是用Python写的，刚好我电脑有Python解释器，可以下载下来运行一下。
 观察<code>README.md</code>可知，运行脚本需要获取账号的access_token和打卡数据，而打卡数据的获取也需要access_token。只好先去抓包了。<br>
 &emsp;奕辅导是微信小程序，所以要对微信抓包。
-## 2.获取access_token
+# 2.获取access_token
 打开 HttpCanary，对 WeChat进行抓包。
 从下载得到的源码中，我们可以得知抓包软件的网址域名，按照域名来查看抓到的数据
 ![pic3](IMG_20220821_133725.jpg)
 <p style="text-align:center">access_token如图所示</p>
 可以把access_token直接填入<code>default_data.py</code>中。
 
-## 3.获取punch_in_data
+# 3.获取punch_in_data
 &emsp;接下来对<code>default_data.py</code>和<code>README.md</code>分析得知，要获取正确的打卡信息，还必须填好punch_in_data。<br>
 &emsp;打卡信息使用punch_in_data_generator.py 脚本进行抓取。步骤如下：<br>
 
@@ -61,7 +61,7 @@ categories: [Tasker, 打卡]
 
 &emsp;填完之后，运行一下<code>main.py</code>。出现以下字样，说明脚本配置成功。
 ![pic4](2022-08-21161052.png)
-## 4.自动化第一步——在手机上配置Python
+# 4.自动化第一步——在手机上配置Python
 &emsp;Termux是安卓手机上的一款软件，相当于在安卓上搭建了一个小型的Linux平台，所以在Linux上能干的事情很多在手机上也都办得到，比如本文就是介绍与Python相关的内容。
 为什么用Termux呢，因为他本身是一个小型的Linux，安装个Python不在话下，并且可以使用最新版的Python。而QPython,PyDroid虽然自带Python环境，但是Python版本过低，有些写好的程序运行不了，定制化很差。<br>
 
@@ -95,7 +95,7 @@ pip install requests
 
 &emsp;将已经修改的源码复制到手机上，使用Termux运行一次。如果运行结果与电脑上一致，说明Python环境已经配置完成。  
 
-## 5.自动化第二步——在手机上配置Tasker
+# 5.自动化第二步——在手机上配置Tasker
 &emsp;好了，现在万事俱备，就差把 Termux 和 Tasker 相联系起来了。<br>
 &emsp;关于这方面，我们可以手动创建一个全局变量，就像Windows的环境变量一样。不过和Windows的环境变量的表达上有所差异。
 ````
