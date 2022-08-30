@@ -3,10 +3,10 @@ layout: mypost
 title: Tasker获取网页数据
 categories: [Tasker, HTTP]
 ---
-## 起因
+# 起因
 &emsp;我想要让手机每天都去一个网页并获取其中的一小段数据，虽然对于Python来说很简单。但是用Python不好进行通知，因为我想直接使用Android的系统通知，而不是使用第三方邮箱、WeChat进行通知，因为它们都可能存在漏接或迟接。所以Tasker应该是一个好的选择。
 
-## 使用HTTP Request来获取数据
+# 使用HTTP Request来获取数据
 &emsp;由于Tasker已经把HTTP Get、HTTP Head和HTTP Post弃用。所以我们使用HTTP Request来代替它们进行网页数据的操作。
 
 0. 安卓手机安装 Tasker
@@ -51,13 +51,13 @@ categories: [Tasker, HTTP]
 &emsp;假如我想提取“更多”的网址。应使用<code>%html[div{class=mnav s-top-more-btn}>a=:=href]</code>来表示。  
 &emsp;假如我想提取“地图”文本。这时应使用<code>%html[div{id=s-top-left}>a:nth-child«3»]</code>来表示。
 
-## 总结
+# 总结
 &emsp;要提取数据先要打开浏览器，鼠标右键打开浏览器的检查功能。查看各个标签的相对位置。
 - 标签并列的话要使用nth-child«»。«»中的数字代表其排列顺序
 - 标签嵌套的话要使用>。
 - 当标签含有多种属性的话要使用=:=
 - 要匹配标签的话要使用div{attr=value} ,attr和value从html文件中找
 
-## 参考链接
+# 参考链接
 [Tasker官网文档:Variables](https://tasker.joaoapps.com/userguide/en/variables.html)<br>
 [Tasker官网文档:HTTP Request](https://tasker.joaoapps.com/userguide/en/help/ah_http_request.html)
