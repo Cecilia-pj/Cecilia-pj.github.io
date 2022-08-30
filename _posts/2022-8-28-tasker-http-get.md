@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Tasker获取网页数据
-categories: [Tasker]
+categories: [Tasker, HTTP]
 ---
 ## 起因
 &emsp;我想要让手机每天都去一个网页并获取其中的一小段数据，虽然对于Python来说很简单。但是用Python不好进行通知，因为我想直接使用Android的系统通知，而不是使用第三方邮箱、WeChat进行通知，因为它们都可能存在漏接或迟接。所以Tasker应该是一个好的选择。
