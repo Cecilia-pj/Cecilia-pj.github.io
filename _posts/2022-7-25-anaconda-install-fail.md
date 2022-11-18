@@ -32,7 +32,7 @@ CreataProcessW:存取被拒
 
 此网站上的安装案例使用的Anaconda版本为2020.02（Python 3.7.6) 
 
-由于Anaconda的服务器在国外，下载速度感人。所以直接去清华大学软件镜像站中下载，此为网站链接：[Index of /anaconda/archive/ | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
+由于Anaconda的服务器在国外，下载速度感人。所以直接去清华大学软件镜像站中下载，此为网站链接：[Index of /anaconda/archive/ \| 清华大学开源软件镜像站 \| Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
 
 当然阿里巴巴等公司也提供了下载，此处不赘述。
 ![pic6](https://img-blog.csdnimg.cn/e76eac8cd6c644259ec735bea37d4ff9.png)
