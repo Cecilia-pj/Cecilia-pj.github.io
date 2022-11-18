@@ -20,7 +20,7 @@ CreataProcessW:存取被拒
 
 试了一晚上终于成功了。后悔啊，Python3.6.4用的好好的，为什么要手贱重装😅。
 
-# ​2.Anaconda下载安装
+# 2.Anaconda下载安装
 ## 2.1 下载
 （避开第一个坑）选择安装包时要选择好Anaconda的版本，切记不要直接下载安装最新版本🤡。很多人就是这个原因，我也是其中一员。
 ![pic3](https://img-blog.csdnimg.cn/74d1498c19224164a9234230887ff126.jpeg)
@@ -29,7 +29,7 @@ CreataProcessW:存取被拒
 不要下载<br>
 百度bing一搜，有一个Anaconda中文网：[在 Windows 上安装_Anaconda 中文网](https://anaconda.org.cn/anaconda/install/windows/)
 ![pic5](https://img-blog.csdnimg.cn/486a9e68dfad4c53a8f919a7641b0107.jpeg)
-​
+
 此网站上的安装案例使用的Anaconda版本为2020.02（Python 3.7.6) 
 
 由于Anaconda的服务器在国外，下载速度感人。所以直接去清华大学软件镜像站中下载，此为网站链接：[Index of /anaconda/archive/ | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)
