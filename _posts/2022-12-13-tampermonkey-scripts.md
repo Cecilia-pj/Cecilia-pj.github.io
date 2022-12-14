@@ -7,7 +7,7 @@ categories: [Tampermonkey, JavaScript]
 油猴不自带任何功能脚本，这些脚本需要自己安装，油猴相当于一个管理平台。
 油猴官方给出的下载平台有四个(https://www.tampermonkey.net/scripts.php)：
 
-[Userscript.Zone Search](https://www.userscript.zone/?utm_source=tm.net&utm_medium=scripts&utm_campaign=0)
+[Userscript.Zone Search](https://www.userscript.zone/)
 
 打开官网就是一个搜索框，很容易找到合适的用户脚本。
 
