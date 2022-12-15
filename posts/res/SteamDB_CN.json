@@ -20,6 +20,7 @@
       "Charts": "图表",
       "Calculator": "计算器",
       "Patch notes": "补丁说明",
+       "Search": "搜索",
       "Instant search": "渐进式搜索",
       "When is next sale?": "下一次大促?",
       "Tracking": " 追踪",
@@ -382,6 +383,7 @@
       "Owned Games": "\n拥有最多游戏的 Steam 用户\n",
       "Badges": "徽章",
       "Top Steam Users By Level": " 等级最高的 Steam 用户",
+       "Top Currently Global Selling Steam Games": "全球销量最高的Steam游戏",
       "Steam Weekly Global Top Sellers": "本周 Steam 全球销量排行榜",
       "Most Followed Steam Games": "最受关注的 Steam 游戏",
       "Most Wishlisted Steam Games": "最多愿望单的 Steam 游戏",
@@ -392,7 +394,8 @@
       "Steam Game Release Summary": "Steam 游戏发售汇总",
       "How can you help SteamDB": "我该如何帮助 SteamDB",
       "Free Packages": "免费 Sub",
-      "Free Promotions on Steam": "Steam上的免费促销"
+      "Free Promotions on Steam": "Steam上的免费促销",
+       "What are games built with and what technologies do they use?" :"游戏是用什么构建的，它们使用什么技术?"
     },
     "h2,h2 *": {
       "SteamDB in numbers": "Steam 统计数据",
@@ -437,6 +440,7 @@
       "Known restrictions": "已知限制",
       "Community Items": "社区物品",
       "Files": "文件列表",
+       "Search": "搜索",
       "Lifetime concurrent players on Steam": "同时在线数预测",
       "Steam game hub followers chart": "Steam 社区中心关注者图表",
       "Monthly breakdown": "月度明细",
@@ -505,8 +509,11 @@
       "toggle this menu": " 开关菜单 ",
       "focus search": " 开始搜索"
     },
-     ".footer-copyright": {
-      " SteamDB is a hobby project and is not affiliated with Valve or Steam. All times on the site are UTC.": "SteamDB 是一个业余项目, 与 Valve 或 Steam 无关. 网站上的所有时间都是 UTC 时间.",
+     ".footer-copyright>div>p,.footer-copyright>div>p>a": {
+      "SteamDB is a hobby project and is not affiliated with Valve or Steam. All times on the site are UTC.": "SteamDB 是一个业余项目, 与 Valve 或 Steam 无关. 网站上的所有时间都是 UTC 时间.",
+       "Fair use disclaimer": "合理使用免责声明",
+       " · ": " · ",
+       "Privacy": "隐私",
       "Steam and the Steam logo are trademarks of Valve Corporation. All other trademarks are property of their respective owners.": "Steam和Steam徽标是Valve Corporation的商标。所有其他商标均为其各自所有者的财产."
     },     
     "#insert-steamid>a": {
@@ -646,6 +653,7 @@
       "Most Played Games": "最常玩的游戏",
       "Most Followed Games": "最受关注的游戏",
       "Most Wishlisted Games": "最多愿望单的游戏",
+       "Most Wished Games": "最多愿望单的游戏",
       "Most Wishlisted Upcoming Games": "最多愿望单即将推出的游戏",
       "Get disappointed in your life™": "计算账号价值",
       "Get disappointed in your life": "计算账号价值",
@@ -834,10 +842,15 @@
       "High-resolution Steam charts with concurrent player counts for all Steam games, including historic data.": "所有 Steam 游戏的高分辨率 Steam 图表, 包括历史数据.",
       "We update data and charts for the current top 800 games every 5 minutes, and the rest every 10 minutes.": "对于排名前800的游戏数据, 我们每5分钟更新一次, 其余的每10分钟更新一次.",
       "At the request of the publisher, this app has been retired. You may not be able to buy or get it.": "应发行商请求, 此应用已在 Steam 商店下架, 你可能无法再购买或者获取它.",
+       "We detect various technologies such as engines and SDKs used by games on Steam from depot file lists. This process is entirely automatic and does have mismatches, the rule set we use is": "我们从仓库文件列表中检测Steam上游戏使用的各种技术，如引擎和SDK.这个过程是完全自动的，确实存在不匹配，我们使用的规则集",
+       "available on Github": "在Github 上可用",
+       ". You can report issues and suggest new rules there.": ". 您可以在那里报告问题并建议新规则.",
+       "These detections rely on our bot owning games to be able to see the file lists. ": "这些检测依赖于我们拥有机器人的游戏来查看文件列表.",
+       "Submit a key for your game improve our coverage!": "为您的游戏提交密钥，提高我们的覆盖率!",
       "This build has not been seen in a public branch.": "这个版本没有在公开分支出现过.",
       "Filter history to a single key": " 按照指定的类型过滤历史记录"
     },
-    "#js-search-tips>p,#js-search-tips>ul>li,.header-search-enter,.header-search-enter>span": {
+    "#js-search-tips>p,#js-search-tips>ul>li,.header-search-enter,.header-search-enter>.hide-small,.header-search-side-close>.header-search-side-close-inner": {
       "Start typing to see game suggestions. This only suggests apps that have a store page.": "输入任何关键字来查看游戏建议. 在这里只会显示有商店页面的应用.",
       "Use slash key (": "使用快捷键 (",
       ") to focus search from anywhere.": ") 可以随时打开搜索界面.",
@@ -853,8 +866,8 @@
       "Click anywhere outside the search field to close this popup.": "点击搜索框外的任何地方可以退出此界面.",
       "Only apps with a store page are suggested.": "只有具有商店页面的 APP 才会显示在搜索提示中.",
        "Close ×": "关闭 ×",
-      " Submit to view all results.": "提交关键词查看所有结果.",
-      " View and filter in instant search.": "在即时搜索中查看和筛选."
+      "Submit to view all results.": " 提交关键词查看所有结果.",
+      "View and filter in instant search.": " 在即时搜索中查看和筛选."
     },
     ".global-announcement>div,.global-announcement>div>a": {
       "🙏 Help SteamDB continue tracking data by": "\n🙏 请帮助 SteamDB 继续追踪数据, 通过\n",
