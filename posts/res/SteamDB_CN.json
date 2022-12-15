@@ -447,6 +447,7 @@
     },
     "h3,h3>a": {
       "Want to calculate value of your own Steam account?": "想算出你自己的Steam账户的价值吗？",
+       "Top selling games on Steam by revenue for the week": "Steam上本周收入最高的游戏",
       "Concurrent Steam Users": "当前在线Steam用户",
       "Examples on what can be entered": "示例输入",
       "Some rules before you continue": "在继续之前, 请先了解以下规则",
@@ -504,6 +505,10 @@
       "toggle this menu": " 开关菜单 ",
       "focus search": " 开始搜索"
     },
+     ".footer-copyright": {
+      " SteamDB is a hobby project and is not affiliated with Valve or Steam. All times on the site are UTC.": "SteamDB 是一个业余项目, 与 Valve 或 Steam 无关. 网站上的所有时间都是 UTC 时间.",
+      "Steam and the Steam logo are trademarks of Valve Corporation. All other trademarks are property of their respective owners.": "Steam和Steam徽标是Valve Corporation的商标。所有其他商标均为其各自所有者的财产."
+    },     
     "#insert-steamid>a": {
       "You are currently signed in as": "你当前登录账号的 SteamID 是 ",
       ". Click this or your avatar in the navbar to view your profile.": " . 点击此处或者导航栏上的头像来查看你的个人资料."
@@ -633,6 +638,7 @@
       "View more package history entries…": "查看更多 SUB 历史记录..."
     },
     "#js-header-hamburger>span,a.btn,button,button>span": {
+      "Close": "关闭",
       "Menu": "菜单",
       "Calendar": "日历",
       "Past 7 day releases": "上一周发售的游戏",
@@ -831,20 +837,24 @@
       "This build has not been seen in a public branch.": "这个版本没有在公开分支出现过.",
       "Filter history to a single key": " 按照指定的类型过滤历史记录"
     },
-    "#js-search-tips>p,#js-search-tips>ul>li,.header-search-enter": {
+    "#js-search-tips>p,#js-search-tips>ul>li,.header-search-enter,.header-search-enter>span": {
       "Start typing to see game suggestions. This only suggests apps that have a store page.": "输入任何关键字来查看游戏建议. 在这里只会显示有商店页面的应用.",
       "Use slash key (": "使用快捷键 (",
       ") to focus search from anywhere.": ") 可以随时打开搜索界面.",
       "Use arrow keys (": "使用方向键 (",
       "and": " 和 ",
       ") to navigate suggestions.": ") 可以选择搜索建议.",
+       "Use escape (": "使用返回键 (",
+       ") to close search.": ") 可以关闭搜索.",
       "Enter an appid to be redirected to the app page.": "输入 AppID 会直接跳转到应用详情页.",
       "Enter a steamid (765...) to be redirected to calculator.": "输入 SteamID (765...) 会直接跳转到计算器.",
       "Paste a profile link (/id/ or /profiles/) to be redirected to calculator.": "输入个人资料链接 (/id/ 或 /profiles/) 会直接跳转到计算器.",
       "Paste any url that contains app/, sub/, bundle/, or depot/ to be redirected to the relevant page.": "输入任何包含 app/, sub/, bundle/, depot/ 的链接, 会直接跳转到相应的详情页.",
       "Click anywhere outside the search field to close this popup.": "点击搜索框外的任何地方可以退出此界面.",
       "Only apps with a store page are suggested.": "只有具有商店页面的 APP 才会显示在搜索提示中.",
-      "Submit to view all results.": "提交关键词查看所有结果."
+       "Close ×": "关闭 ×",
+      " Submit to view all results.": "提交关键词查看所有结果.",
+      " View and filter in instant search.": "在即时搜索中查看和筛选."
     },
     ".global-announcement>div,.global-announcement>div>a": {
       "🙏 Help SteamDB continue tracking data by": "\n🙏 请帮助 SteamDB 继续追踪数据, 通过\n",
@@ -910,7 +920,7 @@
       "Ukrainian Hryvnia": " 乌克兰格里夫纳 UAH",
       "Uruguayan Peso": " 乌拉圭比索 UYU",
       "Vietnamese Dong": " 越南盾 VND",
-      "Filter by feature or OS": "按特性或者系统过滤",
+      "Filter by system": "按系统过滤",
       "Multi-player": "多人",
       "Single-player": "单人",
       "Valve Anti-Cheat enabled": "启用VAC反作弊",
@@ -955,11 +965,13 @@
       "VR: Seated": "VR: 就座",
       "VR: Standing": "VR: 站立",
       "VR: Room-Scale": "VR: 房间规模",
+       "Tracked Controller Support": "跟踪控制器支持",
       "VR Only": "仅支持VR",
       "VR Supported": "支持VR",
       "Early Access": "抢先体验",
       "Profile Features Limited": "个人资料功能受限",
       "Low Confidence Metric": "Steam 正在了解该游戏",
+       "Steam is learning": "Steam 正在了解该游戏",
       "Adult Only": "成人内容",
       "Filter by type (No DLC)": "按类型过滤 (不包含DLC)",
       "Games only": "只显示 游戏",
@@ -1274,7 +1286,7 @@
       "Mining": "采矿",
       "Dinosaurs": "恐龙",
       "MOBA": "多人在线战术竞技",
-      "Programming": "编程",
+      "Programming": "程式设计",
       "Real-Time with Pause": "即时含暂停",
       "Underwater": "水底",
       "Trading Card Game": "集换式卡牌游戏",
@@ -1388,6 +1400,22 @@
       "Voice Control": "声控",
       "Bowling": "保龄球",
       "Electronic": "电子",
+       "TrackIR": "头部追踪",
+       "Boss Rush": "竞速魔王战",
+       "BossRush": "竞速魔王战",
+       "Job Simulator": "工作模拟",
+       "Jump Scare": "突发惊吓",
+       "Cozy": "惬意",
+       "Wholesome": "温馨",
+       "Mahjong": "麻将",
+       "Musou": "无双",
+       "Tile-Matching": "消除方块",
+       "Cricket": "板球",
+       "Rugby": "橄榄球",
+       "Volleyball": "排球",
+       "Snooker": "斯诺克",
+       "Coding": "程式编写",
+       "Shop Keeper": "商店经营",
       "ATV": "ATV",
       "Benchmark": "标杆测试",
       "Skiing": "滑雪",
