@@ -91,6 +91,7 @@
       "Price": "售价",
       "Hot Releases": "热门即将推出",
       "Rating": "好评率",
+       "Online": "在线数",
       "Currency": "货币",
       "Current Price": "当前价格",
       "Converted Price": "换算价格",
@@ -182,9 +183,13 @@
       "TYPE": "类型",
       "SIZE": "大小",
       "INTERFACE": "界面",
+       "Interface": "界面",
       "FULL AUDIO": "完全音频",
+       "Full Audio": "完全音频",
       "SUBTITLES": "字幕",
-      "ACHIEVEMENTS": "成就"
+       "Subtitles": "字幕",
+      "ACHIEVEMENTS": "成就",
+       "Achievements": "成就"
     },
     "td,td>a": {
       "Yes": "✅是",
@@ -195,6 +200,7 @@
       "Store Name": "商店名称",
       "Developer": "开发商",
       "Publisher": "发行商",
+       "Franchise": "系列",
       "Supported Systems": "支持的操作系统",
       "Last Change Number": "最后更改序号",
       "Last Record Update": "最后更新时间",
@@ -382,6 +388,7 @@
       "Top Rated Apps on Steam": "评分最高的 Steam 应用",
       "Owned Games": "\n拥有最多游戏的 Steam 用户\n",
       "Badges": "徽章",
+       "Franchises": "系列",
       "Top Steam Users By Level": " 等级最高的 Steam 用户",
        "Top Currently Global Selling Steam Games": "全球销量最高的Steam游戏",
       "Steam Weekly Global Top Sellers": "本周 Steam 全球销量排行榜",
@@ -390,6 +397,7 @@
       "Steam Profile Badges": "Steam 徽章",
       "All Steam Game Tags": "所有 Steam 游戏标签",
       "Most followed upcoming Steam games": "最受关注的即将发售的游戏",
+       "Most Wishlisted Upcoming Steam Games": "最令人期待的即将发售的游戏",
       "Steam Release Calendar": "Steam 发售日历",
       "Steam Game Release Summary": "Steam 游戏发售汇总",
       "How can you help SteamDB": "我该如何帮助 SteamDB",
@@ -514,7 +522,7 @@
        "Fair use disclaimer": "合理使用免责声明",
        " · ": " · ",
        "Privacy": "隐私",
-      "Steam and the Steam logo are trademarks of Valve Corporation. All other trademarks are property of their respective owners.": "Steam和Steam徽标是Valve Corporation的商标。所有其他商标均为其各自所有者的财产."
+      "Steam and the Steam logo are trademarks of Valve Corporation. All other trademarks are property of their respective owners.": "Steam和Steam徽标是Valve Corporation的商标. 所有其他商标均为其各自所有者的财产."
     },     
     "#insert-steamid>a": {
       "You are currently signed in as": "你当前登录账号的 SteamID 是 ",
@@ -523,7 +531,8 @@
     ".events-title>span,.events-title>a,#events>.d-flex>a": {
       "Steam Sale Events": "Steam 促销活动 ",
       "Browse and filter all current deals": "浏览和过滤正在进行的促销活动",
-      "View all previous sale events…": "查看所有过去的促销活动…"
+      "View all previous sale events…": "查看所有过去的促销活动…",
+       "Steam News Pop-ups": "Steam 新闻弹窗"
     },
     ".container-stats em": {
       "apps in database": "APP总数",
@@ -768,7 +777,7 @@
       "Steam Status FAQ": "Steam 状态 FAQ",
       "Privacy": "隐私"
     },
-    "panel>p": {
+    "div.panel>p": {
       "We track every new build on Steam, and try connect these builds to announcements by the game developers in their hub.": "我们跟踪 Steam 上的每个版本更新, 并尝试将这些更新与游戏开发者发布的更新公告联系起来.",
       "We also automatically display the list of changed files for every single patch.": "我们还为每个更新自动显示文件改动列表."
     },
@@ -835,18 +844,18 @@
     "span.muted": {
       "Package »": "SUB »"
     },
-    ".muted-banner>p": {
+    "div.muted-banner>p": {
       "There is only partial information available about this app as SteamDB is missing the access token.": "此 APP 仅能查到部分信息, 这是因为 SteamDB 缺少访问凭据.",
       "The data for this package may be outdated, as our bot can no longer access the package info.": "此 SUB 的数据可能已过期, 我们的机器人再也无法读取此 SUB 的信息.",
       "Due to a Steam change in June 2020, packages do not return any information until it is available in the store or owned.": "Steam 在2020年6月更新以后, 只有 SUB 的拥有者才能读取该 SUB 的信息.",
       "High-resolution Steam charts with concurrent player counts for all Steam games, including historic data.": "所有 Steam 游戏的高分辨率 Steam 图表, 包括历史数据.",
       "We update data and charts for the current top 800 games every 5 minutes, and the rest every 10 minutes.": "对于排名前800的游戏数据, 我们每5分钟更新一次, 其余的每10分钟更新一次.",
       "At the request of the publisher, this app has been retired. You may not be able to buy or get it.": "应发行商请求, 此应用已在 Steam 商店下架, 你可能无法再购买或者获取它.",
-       "We detect various technologies such as engines and SDKs used by games on Steam from depot file lists. This process is entirely automatic and does have mismatches, the rule set we use is": "我们从仓库文件列表中检测Steam上游戏使用的各种技术，如引擎和SDK.这个过程是完全自动的，确实存在不匹配，我们使用的规则集",
-       "available on Github": "在Github 上可用",
-       ". You can report issues and suggest new rules there.": ". 您可以在那里报告问题并建议新规则.",
-       "These detections rely on our bot owning games to be able to see the file lists. ": "这些检测依赖于我们拥有机器人的游戏来查看文件列表.",
-       "Submit a key for your game improve our coverage!": "为您的游戏提交密钥，提高我们的覆盖率!",
+      "We detect various technologies such as engines and SDKs used by games on Steam from depot file lists. This process is entirely automatic and does have mismatches, the rule set we use is": "我们从仓库文件列表中检测Steam上游戏使用的各种技术,如引擎和SDK. 这个过程是完全自动的,确实存在不匹配,我们使用的规则集在",
+      "available on Github": "Github 上可用",
+      ". You can report issues and suggest new rules there. ": ". 您可以在那里报告问题并建议新规则.",
+      "These detections rely on our bot owning games to be able to see the file lists. ": "这些检测依赖于我们拥有机器人的游戏来查看文件列表.",
+      "Submit a key for your game improve our coverage!": "为您的游戏提交密钥，提高我们的覆盖率!",
       "This build has not been seen in a public branch.": "这个版本没有在公开分支出现过.",
       "Filter history to a single key": " 按照指定的类型过滤历史记录"
     },
@@ -891,6 +900,9 @@
       "10,000 points": "10,000 点数",
       "Booster pack 1": "补充包 1"
     },
+     "div.price-table-suggestions":{
+       "Valve suggested prices are shown on package pages.": " Valve建议价格显示在软件包页面上."
+     },
     "option,.ms-drop span,.currency-selector>.btn,a.btn-tag,td.price-line,.label-link": {
       "U.S. Dollar": " 美元 USD",
       "Euro": " 欧元 EUR",
