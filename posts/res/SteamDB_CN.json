@@ -480,7 +480,8 @@
       "Save File Locations": "存档位置",
       "Localization Strings": "本地化字符串",
       "Technical Item Data": "开发者数据",
-      "User Tags": "用户标签"
+      "User Tags": "用户标签",
+       "Upcoming events": "活动预告"
     },
     "h4,h4>span": {
       "Concurrent players": "同时在线",
@@ -603,6 +604,8 @@
       "Click the": "点击详情页面的 ",
       "\"Watch\"": "“监视”",
       "button on app pages to add apps to this list.": " 按钮,来添加到监视列表.",
+       "Takeovers": "收购",
+       "Pop-ups": "新闻弹窗",
       "View all sale events": "浏览所有促销活动"
     },
     "a.badge-admin": {
@@ -657,6 +660,7 @@
       "Close": "关闭",
       "Menu": "菜单",
       "Calendar": "日历",
+       "Open link": "打开链接",
       "Past 7 day releases": "上一周发售的游戏",
       "Most Followed Upcoming Games": "最受关注的即将发售的游戏",
       "Most Played Games": "最常玩的游戏",
@@ -851,7 +855,7 @@
       "High-resolution Steam charts with concurrent player counts for all Steam games, including historic data.": "所有 Steam 游戏的高分辨率 Steam 图表, 包括历史数据.",
       "We update data and charts for the current top 800 games every 5 minutes, and the rest every 10 minutes.": "对于排名前800的游戏数据, 我们每5分钟更新一次, 其余的每10分钟更新一次.",
       "At the request of the publisher, this app has been retired. You may not be able to buy or get it.": "应发行商请求, 此应用已在 Steam 商店下架, 你可能无法再购买或者获取它.",
-      "We detect various technologies such as engines and SDKs used by games on Steam from depot file lists. This process is entirely automatic and does have mismatches, the rule set we use is": "我们从仓库文件列表中检测Steam上游戏使用的各种技术,如引擎和SDK. 这个过程是完全自动的,确实存在不匹配,我们使用的规则集在",
+      "We detect various technologies such as engines and SDKs used by games on Steam from depot file lists. This process is entirely automatic and does have mismatches, the rule set we use is ": "我们从仓库文件列表中检测Steam上游戏使用的各种技术,如引擎和SDK. 这个过程是完全自动的,确实存在不匹配,我们使用的规则集在",
       "available on Github": "Github 上可用",
       ". You can report issues and suggest new rules there. ": ". 您可以在那里报告问题并建议新规则.",
       "These detections rely on our bot owning games to be able to see the file lists. ": "这些检测依赖于我们拥有机器人的游戏来查看文件列表.",
@@ -901,8 +905,11 @@
       "Booster pack 1": "补充包 1"
     },
      "div.price-table-suggestions":{
-       "Valve suggested prices are shown on package pages.": " Valve建议价格显示在软件包页面上."
+       "Valve suggested prices are shown on package pages.": " Valve 建议定价仅在 SUB 页面显示."
      },
+      "div.chart-container":{
+        "Click on a currency name to load price history for that particular currency.": " 单击货币名称以加载该特定货币的价格历史记录。"
+      },
     "option,.ms-drop span,.currency-selector>.btn,a.btn-tag,td.price-line,.label-link": {
       "U.S. Dollar": " 美元 USD",
       "Euro": " 欧元 EUR",
