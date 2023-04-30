@@ -411,6 +411,7 @@
       "Recent package events": "最近更新的SUB",
       "Our latest blog post": "最新博客文章",
       "Store Prices": "各区商店价格",
+       "Steam prices in all regions": "各区商店价格",
       "High-resolution Steam charts": "高分辨率 Steam 图表",
       "Additional Information": "附加信息",
       "Supported Languages": "语言支持",
@@ -481,7 +482,8 @@
       "Localization Strings": "本地化字符串",
       "Technical Item Data": "开发者数据",
       "User Tags": "用户标签",
-       "Upcoming events": "活动预告"
+       "User tags":  "用户标签",
+      "Upcoming events": "活动预告"
     },
     "h4,h4>span": {
       "Concurrent players": "同时在线",
@@ -582,18 +584,23 @@
       "Patch Notes": "补丁说明",
       "Apps": " APP ",
       "Prices": " 价格 ",
+       "Price history": " 价格历史 ",
       "Charts": " 图表 ",
       "Information": " 信息 ",
+       "App info": " APP信息 ",
       "Packages": " SUB ",
       "DLCs": " DLC ",
       "Depots": " 资产 ",
       "Configuration": " 配置 ",
       "Cloud Saves": " 云存档 ",
+       "Cloud saves": " 云存档 ",
       "Achievements": " 成就 ",
       "Community": " 社区 ",
       "Screenshots": " 截图 ",
       "Related Apps": " 关联 APP ",
+       "Related apps": " 关联 APP ",
       "History": " 历史 ",
+       "Update history": " 更新历史 ",
       "Games": " 游戏 ",
       "Localization": " 本地化 ",
       "Files": " 文件 ",
@@ -654,7 +661,8 @@
     ".text-center,.text-center>a": {
       "We limit upcoming releases view to 30 days by default.": "\n我们默认只显示未来30天内发布的游戏.",
       "View more app history entries…": "查看更多 APP 历史记录...",
-      "View more package history entries…": "查看更多 SUB 历史记录..."
+      "View more package history entries…": "查看更多 SUB 历史记录...",
+       "View detailed list of all upcoming games": "查看所有即将推出的游戏的详细列表"
     },
     "#js-header-hamburger>span,a.btn,button,button>span": {
       "Close": "关闭",
@@ -863,7 +871,7 @@
       "This build has not been seen in a public branch.": "这个版本没有在公开分支出现过.",
       "Filter history to a single key": " 按照指定的类型过滤历史记录"
     },
-    "#js-search-tips>p,#js-search-tips>ul>li,.header-search-enter,.header-search-enter>.hide-small,.header-search-side-close>.header-search-side-close-inner": {
+    "#js-search-tips>p,#js-search-tips>ul>li,#js-search-tips>ul>li>a,.header-search-enter,.header-search-enter>.hide-small,.header-search-side-close>.header-search-side-close-inner": {
       "Start typing to see game suggestions. This only suggests apps that have a store page.": "输入任何关键字来查看游戏建议. 在这里只会显示有商店页面的应用.",
       "Use slash key (": "使用快捷键 (",
       ") to focus search from anywhere.": ") 可以随时打开搜索界面.",
@@ -880,7 +888,8 @@
       "Only apps with a store page are suggested.": "只有具有商店页面的 APP 才会显示在搜索提示中.",
        "Close ×": "关闭 ×",
       "Submit to view all results.": " 提交关键词查看所有结果.",
-      "View and filter in instant search.": " 在即时搜索中查看和筛选."
+      "View and filter in instant search.": " 在即时搜索中查看和筛选.",
+       "Search is powered by Algolia.": " 搜索由Algolia提供支持."
     },
     ".global-announcement>div,.global-announcement>div>a": {
       "🙏 Help SteamDB continue tracking data by": "\n🙏 请帮助 SteamDB 继续追踪数据, 通过\n",
